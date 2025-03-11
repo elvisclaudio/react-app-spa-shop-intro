@@ -68,7 +68,7 @@ function App() {
 
 
         <Header />
-        <Navbar isCollapse={true} />
+        <Navbar isCollapse={true} user={true}/>
         <Routes>
           <Route path="/" element={<Home
 
