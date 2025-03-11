@@ -41,5 +41,7 @@ function ProductsSection({ products, addToCart, addProduct, capitalizeFirstLette
   );
 }
 
+
+
 export default ProductsSection;
 
