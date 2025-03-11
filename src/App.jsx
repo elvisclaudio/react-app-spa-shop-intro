@@ -1,4 +1,4 @@
-import { GlobalProvider } from "./GlobalContext";
+// import { GlobalProvider } from "./GlobalContext";
 import Header from "./Header"; // Adjust path if needed
 import Section from "./Section";
 import Footer from "./Footer";
