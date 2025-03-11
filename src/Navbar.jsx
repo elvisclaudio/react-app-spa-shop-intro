@@ -14,7 +14,11 @@ function Navbar(props) {
           <div className="navbar-nav">
             <Link className={`nav-link ${window.location.pathname === '/' ? 'active' : ''}`} to="/">Home</Link>
             <Link className={`nav-link ${window.location.pathname === '/features' ? 'active' : ''}`} to="/features">Features</Link>
-            <Link className={`nav-link ${window.location.pathname === '/pricing' ? 'active' : ''}`} to="/pricing">Pricing</Link>
+            <Link className={`nav-link ${window.location.pathname === '/pricing' ? 'active' : ''}`} to="/pricing">Pricing</Link> 
+          </div>
+          <div className="navbar-nav ms-auto">
+            <Link className="nav-link" to="/login">Login</Link>
+            <Link className="nav-link" to="/register">Register</Link>
           </div>
         </div>
       </div>

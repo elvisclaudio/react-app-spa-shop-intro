@@ -1,17 +1,18 @@
 // import { GlobalProvider } from "./GlobalContext";
 import Header from "./Header"; // Adjust path if needed
-import Section from "./Section";
+// import Section from "./Section";
 import Footer from "./Footer";
 import { useEffect, useState} from 'react';
 import Navbar from "./Navbar";
-import ProductForm from "./ProductForm";
-import ProductsSection from "./ProductsSection";
+// import ProductForm from "./ProductForm";
+// import ProductsSection from "./ProductsSection";
 import Home from "./Home";
 import Features from "./Features";
 import Pricing from "./Pricing";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-
+import Login from "./Login";
+import Register from "./Register";
 
 const capitalizeFirstLetter = (string) => string.charAt(0).toUpperCase() + string.slice(1);
 
@@ -80,6 +81,9 @@ function App() {
 
           <Route path="/features" element={<Features />} />
           <Route path="/pricing" element={<Pricing />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
+
         </Routes>
         <Footer />
       </div>
