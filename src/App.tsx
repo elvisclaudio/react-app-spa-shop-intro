@@ -50,6 +50,12 @@ function App() {
     getInfo(setProducts);
   }, []);
 
+
+  let cart: string[] = [];
+
+  cart[0] = "1";
+  cart[1] = "2";
+  // cart[2] = 3;
   const addProduct = (product) => {
     // const newProduct = { ...product, id: products.length + 1, url: `https://picsum.photos/200/300?random=${products.length + 1}` };
 

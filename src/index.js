@@ -12,7 +12,7 @@ import "./index.css";
 // import Features from "./Features";
 // import Pricing from "./Pricing";
 // import Footer from "./Footer";
-import App from './App';
+import App from "./App.tsx";
 
 
 
