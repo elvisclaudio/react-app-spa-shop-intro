@@ -39,6 +39,8 @@ function ProductsSection({ products, addToCart, addProduct, capitalizeFirstLette
       </div>
     </div>
   );
+
+  
 }
 
 
